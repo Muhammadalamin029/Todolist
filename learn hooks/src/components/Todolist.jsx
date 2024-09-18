@@ -23,6 +23,7 @@ const Todolist = () => {
     <div className="todo-container">
       <h1>TodoList</h1>
       <input
+        placeholder="Enter Task..."
         className="index"
         value={newTodo}
         onChange={handleInput}
